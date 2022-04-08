@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 HW bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="bootstrapNavbar.html">Highest Priced Cards</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-control="navbarnavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">Vintage Sets</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="cards.html">High-end Cards</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="history.html">Vintage Sets</a>
+                    <a class="dropdown-item" href="cards.html">High-end Cards</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="firstsection" class="container-fluid">
+        <div class="row">
+            <div id="left3" class="col-lg-4 d-flex flex-column h-100">
+                <img src="images/power9.jpg">
+            </div>
+            <div id="right3" class="col-lg-4 d-flex flex-column h-100">
+                <h3>The most powerful and highly sought after Magic: The Gathering cards are collectively known as the "Power 9". They were available in the first three sets; Alpha, Beta, and Unlimited, and never printed in any further sets. A small fortune is needed to purchase any one of these cards in today's market. </h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="secondsection" class="container-fluid">
+        <div class="row">
+            <div id="left4" class="col-lg-4 d-flex flex-column h-100">
+                <img src="images/power93.jpg">
+            </div>
+            <div id="form4" class="col-lg-4 d-flex flex-column h-100">
+                <h3>Which Power 9 is your favorite?</h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                    Black Lotus
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Mox Emerald
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option3">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Mox Jet
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Mox Pearl
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option5">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Mox Ruby
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option6">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Mox Sapphire
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option7">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Timetwister
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option8">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Ancestral Recall
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option9">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Time Walk
+                    </label>
+                </div>
+                </div>
+        </div>
+    </div>
+        
+    <footer> 
+        <p>Derin DeNio &copy; 2022</p>
+    </footer>
+
+    </body>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

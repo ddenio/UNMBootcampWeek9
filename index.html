@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 HW bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="bootstrapNavbar.html">Magic: The Gathering Vintage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-control="navbarnavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">Vintage Sets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cards.html">High-end Cards</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="history.html">Vintage Sets</a>
+                    <a class="dropdown-item" href="cards.html">High-end Cards</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<br><br>
+    <div id="firstsection" class="container-fluid">
+        <div class="row">
+            <div id="left1" class="col-lg-4 d-flex flex-column h-100">
+                <img src="images/magiclogo.png">
+            </div>
+            <div id="right1" class="col-lg-4 d-flex flex-column h-100">
+                <h3>First introduced in 1993 by Richard Garfield under company name <i>Wizards of the Coast</i>, Magic: The Gathering has produced millions of collectible playing cards, over various themed sets throughout the years. Some of these cards more sought after than others...  </h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+    
+            <div class="card-deck">
+                <div class="col-lg-4 d-md-block d-sm-none d-xs-none d-xxs-none">
+                    <div class="card  text-center" style="width: 22rem;">
+                        <img src="images/mox.jpg" class="card-img-top" alt="Mox Diamond">
+                        <div class="card-body">
+                        <h4 class="card-title">History</h4>
+                        <p class="card-text">Magic: The Gathering is well known for its strong value as a collector. The most collectible and highly sought after cards come from it's earliest set releases; known as the Alpha and Beta edition set blocks.   </p>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-md-block d-sm-none d-xs-none">
+                    <div class="card text-center" style="width: 22rem;">
+                        <img src="images/sets.jpg" class="card-img-top" alt="Force of Will">
+                        <div class="card-body">
+                        <h4 class="card-title">Vintage Sets</h4>
+                        <p class="card-text">From the first set, Alpha edition, comes the highly sought after Black Lotus card. Black Lotus is part of a group of 9 cards dubbed the 'Power 9', being the most powerful (and collectible) cards ever printed in the franchise.</p>
+                        <a href="history.html" class="btn btn-primary">Vintage Sets</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-md-block d-sm-none d-xs-none">
+                    <div class="card text-center" style="width: 22rem;">
+                        <img src="images/sliver.jpg" class="card-img-top" alt="Sliver Queen">
+                        <div class="card-body">
+                        <h4 class="card-title">High-end Cards</h4>
+                        <p class="card-text">From the first set, Alpha edition, comes the highly sought after Black Lotus card. Black Lotus is part of a group of 9 cards dubbed the 'Power 9', being the most powerful (and collectible) cards ever printed in the franchise.</p>
+                        <a href="cards.html" class="btn btn-primary">High-end Cards</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <br>
+            
+        
+
+
+  
+        
+
+    <footer> 
+        <p>Derin DeNio &copy; 2022</p>
+    </footer>
+    
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
